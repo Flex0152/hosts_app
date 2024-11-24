@@ -53,10 +53,4 @@ def write_entry(data: pd.DataFrame, path: str) -> None | str:
     
 
 if __name__ == "__main__":
-    file_path = r".\hosts"
-    hosts_file = read_file(file_path)
-    df = new_entry(hosts_file, "127.0.1.2", "another_example.local")
-    write_entry(df, file_path)
-
-    print(df)
-    print(remove_entry_by_name(hosts_file, "another_example.flex.local"))
+    pass
